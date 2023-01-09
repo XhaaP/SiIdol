@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins","sans-serif";
+}
+
+.header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.header .logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.header ul{
+   display: flex;
+   list-style: none;
+   gap: 8rem;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 300;
+   font-size: 16px;
+   color: #000;
+}
+
+.banner {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   top: 0;
+   z-index: -1;
+}
+
+.banner .glass-wrapper{
+    width: 30%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.hero-title{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 13rem;
+}
+
+.hero-title p{
+    font-size: 47px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #fff;
+}
+
+.hero-title .country{
+    font-size: 85px;
+    letter-spacing: 3px;
+}
+
+.hero-title .details{
+    width: 60%;
+    padding-top: 1.5rem;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-bottom: 2.5rem;
+}
+
+.hero-title .explore button {
+    background: rgba(189, 189, 189, 0.299);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: none;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.tourist-list{
+    bottom: 35px;
+    position: absolute;
+    left: 40rem;
+}
+
+.tourist-list p{
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: auto;
+    line-height: 24px;
+}
+
+.tourist-list .thumbnail{
+    display: flex;
+    height: 10rem;
+    width: 18rem;
+    background-size: cover !important;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.tourist-list .thumbnail .details {
+    margin-top: auto;
+    padding: 10px 0px;
+   
+    }
+
+.tourist-list ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    width: 65vw;
+    height: 15rem;
+    align-items: center;
+}
+
+.details .province {
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.details .place-name {
+    font-weight: 300;
+}
+
+.tourist-list .active{
+    margin-top: -5rem;
+}
+
+.type h1{
+    display: flex;
+    left: 35rem;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Poppins","sans-serif";
+    }
+    
+    .header{
+        padding: .5rem;
+        justify-content: space-between;
+        max-width: 200px;
+        margin: 0px auto;
+        align-items: center;
+        position: initial;
+    }
+    
+    .header .logo{
+        text-transform: uppercase;
+        position: absolute;
+        left: 15px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 25px;
+        color: #000;
+    }
+    
+    .header ul{
+       list-style: none;
+       position: absolute;
+       right: 5px;
+       gap: 1rem;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       font-weight: 400;
+       font-size: 16px;
+       color: #000;
+    }
+    
+    .banner {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center, center;
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+    }
+    
+    .banner .glass-wrapper{
+        width: 20%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    
+    .hero-title{
+        max-width: 500px;
+        margin: 0px auto;
+        padding-top: 10rem;
+        left: 10px;
+        position: absolute;
+    }
+    
+    .hero-title p{
+        font-size: 37px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 40px;
+        color: #fff;
+    }
+    
+    .hero-title .country{
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    
+    .hero-title .details{
+        width: 80%;
+        padding-top: 1.5rem;
+        color: #fff;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+        padding-bottom: 2.5rem;
+    }
+    
+    .hero-title .explore button {
+        background: rgba(189, 189, 189, 0.299);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: none;
+        color: #fff;
+        padding: 12px 50px;
+        border-radius: 50px;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
+    
+    .tourist-list{
+        bottom: 35px;
+        position: absolute;
+        left: 1rem;
+        
+    }
+    
+    .tourist-list p{
+        color: #fff;
+        padding-left: 1rem;
+        margin-bottom: auto;
+        line-height: 24px;
+    }
+    
+    .tourist-list .thumbnail{
+        display: block 1rem;
+        height: 3rem;
+        width: 5rem;
+        background-size: cover !important;
+        border-radius: 8px;
+        flex-direction: column;
+        background-position: 0%;
+    }
+    
+    .tourist-list .thumbnail .details {
+        margin-top: auto;
+        padding: 10px 0px;
+        
+        }
+
+
+
+        .thumbnail{
+            width: 100%;
+            max-width: none;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    .tourist-list ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        width: 65vw;
+        height: 15rem;
+        align-items: center;
+    }
+    
+    .details .province {
+        font-size: 10px;
+        font-weight: 300;
+        position: absolute;
+        bottom: 2rem;
+  
+        
+    }
+    .details .place-name {
+        font-weight: 300;
+        font-size: 10px;
+        position: absolute;
+        bottom: 4rem;
+        
+    }
+    
+    .tourist-list .active{
+        margin-top: -5rem;
+    }
+    
+    .type h1{
+        display: flex;
+        left: 35rem;
+    }
+    
+    .wrapper{
+        width: 100%;
+    }
+    
+
+}
